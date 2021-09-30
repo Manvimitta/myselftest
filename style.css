@@ -1,0 +1,33 @@
+body,html{
+  margin: 0;
+  padding: 0;
+}
+img {
+  width: 300px;
+  height: 280px;
+}
+header{
+  width: 100%;
+  height: 70px;
+  background-color: rgb(82, 79, 79);
+}
+ul{
+  width: auto;
+  float: right;
+  margin-top: 8px;
+}
+li{
+  display: inline-block;
+  padding: 15px 30px;
+}
+a{
+  text-align: center;
+  color: #fff;
+  text-decoration: none;
+  font-family: 'Ephesis', cursive;
+  font-size: 25px;
+}
+a:hover{
+  color: rgb(245, 170, 170);
+  transition: 0.5s;
+}
